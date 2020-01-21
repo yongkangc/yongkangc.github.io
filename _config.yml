@@ -1,59 +1,55 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title:              Chia Yong Kang
-logo:               # Logo image URL
-email:              chiayongkang@hotmail.com
-description:        My thoughts and Projects :)
-baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'ExtremelySunnyYk.github.io' # The base hostname & protocol for your site
-github_username:    ExtremelySunnyYK
-twitter_username:   ExtremelySunnyYK
-linkedin_username: yong-kang-chia-66b225154/
-#instagram_username: aspirethemes
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-markdown:  kramdown
-permalink: pretty
-paginate:  13
-sass:
-  style: compressed
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-gems:
-  - jekyll-paginate
-  - jekyll/tagging
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
-include:
-  - _pages
-
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
-# Pages path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-# Authors
-authors:
-  ahmad:
-    name:             Ahmad Ajmi
-    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            info@aspirethemes.com
-    website:          http://aspirethemes.com
-    github_username:  ahmadajmi
-    twitter_username: ahmadajmi
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
