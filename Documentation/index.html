@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Maxima - Minimal Blog & Magazine Ghost Theme</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600" type="text/css" media="all">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
+
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header" role="banner">
+      <h1 class="site-title">Maxima</h1>
+      <p class="site-description">Theme Documentation</p>
+    </header><!-- .site-header -->
+    <div id="main">
+      <div class="intro">
+        <p>First of all a huge thanks for purchasing this theme! If you have any questions that are not answered here, please feel free to email via our user page <a href="http://themeforest.net/user/aspirethemes">here</a>.</p>
+        <ul class="byline">
+          <li><em>Email:</em> <a href="mailto:aspirethemes@gmail.com">aspirethemes@gmail.com</a></li>
+          <li><em>Twitter:</em> <a href="https://twitter.com/aspirethemes">@aspirethemes</a></li>
+        </ul>
+      </div><!-- .intro -->
+
+      <div id="content" role="main">
+
+        <p>For the most recent updated documentation, please check the <a href="https://aspirethemes.com/docs/maxima-jekyll.html">online version</a></p>
+
+        <section>
+          <h2 id="toc">Table of Contents</h2>
+          <ol>
+            <li><a href="#theme-info">Theme Information</a></li>
+            <li><a href="#Configurations">Configurations</a></li>
+            <li><a href="#Deployment">Deployment</a></li>
+            <li><a href="#createPost">Create Post</a></li>
+            <li><a href="#createPage">Create Page</a></li>
+            <li><a href="#Navigation">Navigation</a></li>
+            <li><a href="#DisqusComments">Disqus Comments</a></li>
+            <li><a href="#GoogleAnalytics">Google Analytics</a></li>
+            <li><a href="#SocialMediaLinks">Social Media Links</a></li>
+          </li>
+          <li><a href="#Credits">Credits</a></li>
+        </ol>
+        <hr />
+      </section>
+
+      <section>
+        <h3 id="theme-info">Theme Information</h3>
+        <ul>
+          <li>Name: Maxima</li>
+          <li>Description: Minimal Blog & Magazine Jekyll Theme</li>
+          <li>Current Version: 1.0.7</li>
+          <li>Released: 18 May 2017</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 id="Configurations">Configurations</h3>
+
+        <p>Maxima theme comes with different customizations in the <code>_config.yml</code> <a href="https://jekyllrb.com/docs/configuration/">configuration</a> file:</p>
+
+<pre><code>
+title:              Maxima
+logo:               # Logo image URL
+email:              your-email@domain.com
+description:        Minimal Blog & Magazine Jekyll Theme
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://maxima-jekyll.aerobatic.io' # The base hostname & protocol for your site
+github_username:    aspirethemes
+twitter_username:   aspirethemes
+instagram_username: aspirethemes
+
+markdown:  kramdown
+permalink: pretty
+paginate:  12
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+# Authors
+authors:
+  ahmad:
+    name:             Ahmad Ajmi
+    bio:              Author & developer of Aspire Themes. Minimalist. I love creating clean and minimal websites.Technical writer at SitePoint.
+    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
+    email:            info@aspirethemes.com
+    website:          http://aspirethemes.com
+    github_username:  ahmadajmi
+    twitter_username: ahmadajmi
+</code></pre>
+
+      <hr>
+      </section>
+
+      <section>
+        <h3 id="Deployment">Deployment</h3>
+        <p>To install locally, more to the theme root and run <code>bundle install</code> to install the dependencies, then run <code>jekyll serve</code> to start the jekyll server.</p>
+
+        <p>I would recommend checking the <a href="https://jekyllrb.com/docs/deployment-methods/">Deployment methods</a> page on Jekyll website.</p>
+
+        <p>Maxima is <a href="https://www.aerobatic.com/docs/automated-builds#jekyll">configured</a> to work with <a href="http://aerobatic.com/">Aerobatic</a></p>
+
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="createPost">Create Post</h3>
+
+        <p>To create a new post, you can create a new markdown file inside the <code>_posts</code> directory, following the <a href="https://jekyllrb.com/docs/posts/#creating-post-files">recommended file structure</a>, these are the page configuration you can add.</p>
+
+        <p>The following is an example post file.</p>
+
+<pre><code>
+  ---
+  layout: post
+  title: Welcome to Jekyll!
+  featured: true
+  author: john
+  tags: [python, ruby, java]
+  image: '/images/posts/image.jpeg'
+  ---
+</code></pre>
+
+        <br>
+
+        <p>You can set the author, featured or not, tags, and the post image</p>
+
+        <p>The <code>featured</code> key is to mark the post as a featured post, this will add a simple star icon (☆) to the post created.</code>
+
+        <p>To keep things more organized, add post images to <strong>/images/pages</strong> directory, and add add page images to <strong>/images/pages</strong> directory.</p>
+
+        <p>To create a draft post, create your draft file under the <strong>_drafts</strong> directory, and you can find more information at <a href="http://jekyllrb.com/docs/drafts/">Working with drafts</a></p>
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="createPage">Create Page</h3>
+
+        <p>To create a new page, just create a new markdown file inside the <code>_pages</code> directory, and these are the page configuration you can add.</p>
+
+        <p>The following is the <code>about.md</code> file that you can find as an example included in the theme.</p>
+
+<pre><code>
+  ---
+  layout: page
+  title: About
+  permalink: /about
+  image: '/images/pages/about.jpeg'
+  ---
+</pre></code>
+
+        <br>
+
+        <p>Things you can change are: <code>title</code>, <code>permalink</code>, and <code>image</code> path.</p>
+
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="Navigation">Navigation</h3>
+
+        <p>The navigation on the side bar will include all the links to the pages you have created.</p>
+
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="DisqusComments">Disqus Comments</h3>
+
+        <p>Maxima Theme comes with Disqus comments enabled.</p>
+
+        <p>Open <code>_includes/disqus.html</code> file, and change the <code>aspirethemes</code> value in line 15 with your Disqus account shortname.</p>
+
+
+  <pre><code>
+    s.src = '//aspirethemes-demo.disqus.com/embed.js';
+  </pre></code>
+
+        <br>
+
+        <p>So, if your Disqus shortname is `exampleone`, the final code above should be</p>
+
+  <pre><code>
+    s.src = '//exampleone.disqus.com/embed.js';
+  </pre></code>
+
+        <br>
+
+        <p>That’s all what you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. <a href="https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide">First make sure you have registered your website with Disqus (Step 1)</a></p>
+
+        <p>And also check <a href="https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22">Disqus troubleshooting guide</a> if you still have issues.</p>
+
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="GoogleAnalytics">Google Analytics</h3>
+
+        <p>To integrate Google Analytics, open <code>_includes/analytics.html</code> and add your Google Analytics code.</p>
+
+        <hr>
+
+      <section>
+        <h3 id="SocialMediaLinks">Social Media Links</h3>
+
+        <p>Social media icons are placed in <code>'_includes/footer.html'</code> file</p>
+
+        <p>The theme is using <a href="http://evil-icons.io/">Evil Icon</a>, which contains very simple and clean icons. Here you can find a list of the social media icons to use:</p>
+
+        <ul>
+          <li>
+            <strong>Twitter:</strong> <code>&lt;span data-icon=&quot;ei-sc-twitter&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Facebook:</strong> <code>&lt;span data-icon=&quot;ei-sc-facebook&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Instagram:</strong> <code>&lt;span data-icon=&quot;ei-sc-instagram&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Pinterest:</strong> <code>&lt;span data-icon=&quot;ei-sc-pinterest&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Vimeo:</strong> <code>&lt;span data-icon=&quot;ei-sc-vimeo&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Google-plus:</strong> <code>&lt;span data-icon=&quot;ei-sc-google-plus&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Soundcloud:</strong> <code>&lt;span data-icon=&quot;ei-sc-soundcloud&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Tumblr:</strong> <code>&lt;span data-icon=&quot;ei-sc-tumblr&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+          <li>
+            <strong>Youtube:</strong> <code>&lt;span data-icon=&quot;ei-sc-youtube&quot; data-size=&quot;s&quot;&gt;&lt;/span&gt;</code>
+          </li>
+        </ul>
+
+        <hr>
+      </section>
+
+      <section>
+        <h3 id="Credits">Credits</h3>
+        <p>We have used the following scripts, fonts or other files as listed.</p>
+        <ul>
+          <li><a href="http://evil-icons.io/">Evil Icons</a></li>
+          <li><a href="http://fitvidsjs.com/">FitVids.js</a></li>
+          <li><a href="https://github.com/pattex/jekyll-tagging">jekyll/tagging</a></li>
+          <li>Preview Images form <a href="https://unsplash.com/">unsplash.com</a> & <a href="https://www.pexels.com/">pexels.com</a></li>
+        </ul>
+        <hr>
+      </section>
+
+      <p><a href="#toc">Go To Table of Contents</a></p>
+    </div><!-- #content -->
+  </div><!-- #main -->
+  <footer class="site-info" role="contentinfo">
+    <p>© 2015 Aspire Themes. All rights reserved.</p>
+  </footer><!-- .site-info -->
+</div><!-- .wrap -->
+</body>
+</html>
