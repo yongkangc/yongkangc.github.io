@@ -1,6 +1,5 @@
 .intro {
     padding: 0px 100px;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -36,16 +35,6 @@
           font-weight: 400;
          
           line-height: 20pt;
-
-          .emoji {
-            &.pointer {
-              background-image: url('../../images/emojis/pointright.png');
-              width: 30px;
-              height: 30px;
-              margin: 0 5px;
-              vertical-align: text-bottom;
-            }
-          }
           }
       &__description{
         font-weight: 300;
