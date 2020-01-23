@@ -1,0 +1,25 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML
+  - item: CSS/Sass
+  - item: Python
+  - item: SQL
+  - item: Java
+
+frameworks:
+  - item: Flask
+  - item: React JS
+  - item: Django
+  - item: Android
+  - item: Flask
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Firebase
+
+data-science:
+  - item: Numpy
+  - item: Pandas
+  - item: Machine-Learning
+
