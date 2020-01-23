@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: '/images/pages/about.jpeg'
+image: '../images/emojis/pointright.png'
 ---
 
 You love Minimalism, and you also love writing, Maxima is designed for you. Maxima focus on showing your content in a clean and simple way, focus on images, typography, and white space.
