@@ -1,8 +1,8 @@
 languages:
-  - item: JavaScript (ES6)
+  - item: Python
   - item: HTML
   - item: CSS/Sass
-  - item: Python
+  - item: JavaScript (ES6)
   - item: SQL
   - item: Java
 

@@ -1,10 +1,14 @@
 .intro {
-    padding: 5px 100px;
+    padding: 70px 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     max-width: 1440px;
     margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+      padding: 40px 50px;
+
+    }
 
           .highlight-link {
             font-weight: 400;
@@ -20,7 +24,7 @@
           }
         
         &__tagline {
-          padding: 10px 0px 0px 0px;
+          padding: 20px 0px 0px 0px;
           font-weight: 300;
           max-width: 700px;
           line-height: 28pt;
