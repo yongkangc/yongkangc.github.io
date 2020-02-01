@@ -1,7 +1,7 @@
 .section {
   display: flex;
   justify-content: center;
-  padding: 100px 100px;
+  padding: 100px 90px;
   @include thirteen {
     padding: 100px;
   }
@@ -17,7 +17,7 @@
   &__title {
     flex-shrink: 0;
     width: 200px;
-    margin-right: 70px;
+    margin-right: 80px;
     color: $blue;
     text-transform: uppercase;
     text-align: right;
