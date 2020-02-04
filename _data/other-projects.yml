@@ -2,7 +2,7 @@
 - name: Smart Glasses for the visually impaired.
   url: https://devpost.com/software/seense
   code: https://github.com/ExtremelySunnyYK/RaspberryPi-Emotion-Dectector
-  description:     <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Hack&Roll 2020 🏆</a>
+  description: <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Hack&Roll 2020 🏆</a>
   used:
     - thing: Raspberry PI
     - thing: Python
@@ -10,8 +10,7 @@
     - thing: Parallel Dots API
 
 - name: Construction Augmented Reality App
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
+  url: https://github.com/ExtremelySunnyYK/ARCoreMeasure
   description: 
     A Freelance project for construction company. To use Augmented Reality to calculate distance and cost.
   used:
@@ -20,7 +19,7 @@
     - thing: Google AR Core API
 
 - name: Telegram Fitness Chat Bot
-  url: https://github.com/ExtremelySunnyYK/Firstever-IPPT-Chat-Bot
+  url: www.t.me/IPPTBot
   code: https://github.com/ExtremelySunnyYK/Firstever-IPPT-Chat-Bot
   description: The first ever Ippt chat bot for telegram.
   used:

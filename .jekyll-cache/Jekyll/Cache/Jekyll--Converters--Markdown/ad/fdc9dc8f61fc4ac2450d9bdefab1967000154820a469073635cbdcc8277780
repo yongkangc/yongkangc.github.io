@@ -1,0 +1,212 @@
+I"Z<div class="o-wrapper">
+  <div class="o-grid js-grid">
+    
+  </div>
+  <div class="o-grid">
+   <header class="intro">
+    <h1 class="intro__hello">Hello World!<span class="wave">👋</span></h1>
+  
+    <h3 class="intro__tagline">I'm
+      <span class="name">Yong Kang</span>, a software engineer &amp; an aspiring entrepreneur.</h3>
+
+    <h3 class="intro__description">My life-long goal is to build a sustainable future by positioning myself at the forefront of the fourth industrial revolution. </h3>
+
+  
+    <h4 class="intro__contact">
+      <span>Always looking for passionate individuals to connect, learn and share a cup of ☕ with!<br /></span>
+      <span> DM me or contact me </span>
+      <span class="emoji pointer">👉</span>
+      <span>
+        <a href="mailto:chiayongkang@hotmail.com.com" target="_blank" class="highlight-link">chiayongkang@hotmail.com</a>
+      </span>
+    </h4>
+  </header>
+
+  
+   <section class="section skills">
+    <div class="section__title">Skills</div>
+    <div class="section__content">
+      <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
+      <div class="skillz">
+        <div class="skillz__category">
+          <div class="skillz__category__label">Languages</div>
+          <ul>
+            
+            <li class="skillz__category__item">Python</li>
+            
+            <li class="skillz__category__item">HTML</li>
+            
+            <li class="skillz__category__item">CSS/Sass</li>
+            
+            <li class="skillz__category__item">JavaScript (ES6)</li>
+            
+            <li class="skillz__category__item">SQL</li>
+            
+            <li class="skillz__category__item">Java</li>
+            
+          </ul>
+        </div>
+        <div class="skillz__category">
+          <div class="skillz__category__label">Frameworks</div>
+          <ul>
+            
+            <li class="skillz__category__item">Flask</li>
+            
+            <li class="skillz__category__item">React JS</li>
+            
+            <li class="skillz__category__item">Django</li>
+            
+            <li class="skillz__category__item">Android</li>
+            
+            <li class="skillz__category__item">Flask</li>
+            
+          </ul>
+        </div>
+        <div class="skillz__category">
+          <div class="skillz__category__label">Tools</div>
+          <ul>
+            
+            <li class="skillz__category__item">Bash</li>
+            
+            <li class="skillz__category__item">Git &amp; Github</li>
+            
+            <li class="skillz__category__item">Firebase</li>
+            
+          </ul>
+        </div>
+    </div>
+    <a href="https://extremelysunnyyk.github.io/resume.pdf" target="_blank" class="arrow-link">View My Resume</a>
+
+  &lt;/section&gt;
+  
+   <section class="section other-projects">
+  <div class="section__title">Other Projects</div>
+  <div class="section__content">
+    
+    <div class="project">
+      <div class="project__name">
+        <a href="https://devpost.com/software/seense" target="_blank" class="arrow-link">Smart Glasses for the visually impaired.</a>
+      </div>
+      <p><a class="small" href="https://devpost.com/software/seense">🏆 Winner at Hack&amp;Roll 2020 🏆</a></p>
+      <div class="project__used">
+        
+        <span class="project__used__item">Raspberry PI</span>
+        
+        <span class="project__used__item">Python</span>
+        
+        <span class="project__used__item">Computer Vision</span>
+        
+        <span class="project__used__item">Parallel Dots API</span>
+        
+        
+        <a href="https://github.com/ExtremelySunnyYK/RaspberryPi-Emotion-Dectector" target="_blank">
+          <span class="c-social-nav__icon" data-icon="ei-sc-github" data-size="sm"></span>
+        </a>
+        
+      </div>
+      
+    </div>
+    
+    <div class="project">
+      <div class="project__name">
+        <a href="https://github.com/ExtremelySunnyYK/ARCoreMeasure" target="_blank" class="arrow-link">Construction Augmented Reality App</a>
+      </div>
+      <p>A Freelance project for construction company. To use Augmented Reality to calculate distance and cost.</p>
+      <div class="project__used">
+        
+        <span class="project__used__item">Java</span>
+        
+        <span class="project__used__item">Android</span>
+        
+        <span class="project__used__item">Google AR Core API</span>
+        
+        
+      </div>
+      
+    </div>
+    
+    <div class="project">
+      <div class="project__name">
+        <a href="www.t.me/IPPTBot" target="_blank" class="arrow-link">Telegram Fitness Chat Bot</a>
+      </div>
+      <p>The first ever Ippt chat bot for telegram.</p>
+      <div class="project__used">
+        
+        <span class="project__used__item">Python</span>
+        
+        <span class="project__used__item">Telegram API</span>
+        
+        <span class="project__used__item">Heroku</span>
+        
+        
+        <a href="https://github.com/ExtremelySunnyYK/Firstever-IPPT-Chat-Bot" target="_blank">
+          <span class="c-social-nav__icon" data-icon="ei-sc-github" data-size="sm"></span>
+        </a>
+        
+      </div>
+      
+    </div>
+    
+    <div class="project">
+      <div class="project__name">
+        <a href="https://frozen-atoll-84090.herokuapp.com/login" target="_blank" class="arrow-link">Chatroom with Socket IO</a>
+      </div>
+      <p>A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.</p>
+      <div class="project__used">
+        
+        <span class="project__used__item">JavaScript</span>
+        
+        <span class="project__used__item">HTML</span>
+        
+        <span class="project__used__item">CSS</span>
+        
+        <span class="project__used__item">Heroku</span>
+        
+        <span class="project__used__item">SocketIO</span>
+        
+        
+        <a href="https://github.com/ExtremelySunnyYK/Harvard-WebDevelopment/tree/master/project2-WebChat" target="_blank">
+          <span class="c-social-nav__icon" data-icon="ei-sc-github" data-size="sm"></span>
+        </a>
+        
+      </div>
+      
+    </div>
+    
+    <div class="project">
+      <div class="project__name">
+        <a href="https://extremelysunny.github.io" target="_blank" class="arrow-link">Personal Website V2</a>
+      </div>
+      <p>Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.</p>
+      <div class="project__used">
+        
+        <span class="project__used__item">Jekyll</span>
+        
+        <span class="project__used__item">HTML</span>
+        
+        <span class="project__used__item">SCSS</span>
+        
+        <span class="project__used__item">JavaScript</span>
+        
+        <span class="project__used__item">Github Pages</span>
+        
+        
+        <a href="https://github.com/ExtremelySunnyYK/ExtremelySunnyYK.github.io" target="_blank">
+          <span class="c-social-nav__icon" data-icon="ei-sc-github" data-size="sm"></span>
+        </a>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+    
+
+
+  </div>
+
+&lt;/div&gt;
+</section></div></div>
+:ET

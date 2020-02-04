@@ -1,0 +1,23 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class='o-wrapper'>
+  <div class='o-grid js-grid'>
+    {% for post in paginator.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+  <div class='o-grid'>
+   {% include skills.html %}
+   {% include other-projects.html %}
+    {% include pagination.html %}
+  </div>
+
+</div>
+
+
+   <!-- { include featured_projects.html %} -->
+  <!-- { include experience.html %} -->
+  

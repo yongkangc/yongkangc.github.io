@@ -11,10 +11,14 @@
         {% for item in project.used %}
         <span class="project__used__item">{{item.thing}}</span>
         {% endfor %}
+        {% if project.code %}
+        <a href='{{project.code}}' target='_blank'>
+          <span class='c-social-nav__icon' data-icon='ei-sc-github' data-size='sm'></span>
+        </a>
+        {% endif %}
       </div>
+      
     </div>
     {% endfor %}
-    <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
-
   </div>
 </section>

@@ -11,9 +11,15 @@
     fill: $color-text;
     vertical-align: middle;
     transition: $global-transition;
-
+        
     @include attention() {
       fill: $color-brand;
     }
-  }
 }
+  
+}
+
+.icon--sm {
+  width: 45px;
+  height: 45px;
+ }
