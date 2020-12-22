@@ -1,3 +1,12 @@
+- name: Smart Glasses for the visually impaired.
+  url: https://devpost.com/software/seense
+  code: https://github.com/ExtremelySunnyYK/RaspberryPi-Emotion-Dectector
+  description: <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Hack&Roll 2020 🏆</a>
+  used:
+    - thing: Raspberry PI
+    - thing: Python
+    - thing: Computer Vision
+    - thing: Parallel Dots API
 
 - name: Smart Glasses for the visually impaired.
   url: https://devpost.com/software/seense
