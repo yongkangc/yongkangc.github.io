@@ -1,12 +1,15 @@
-- name: Smart Glasses for the visually impaired.
-  url: https://devpost.com/software/seense
-  code: https://github.com/ExtremelySunnyYK/RaspberryPi-Emotion-Dectector
-  description: <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Hack&Roll 2020 🏆</a>
+- name: Peanuts - A Smart Grocery Management System
+  url: https://extremelysunnyyk.github.io/Peanuts_Portfolio.pdf
+  code: https://github.com/ExtremelySunnyYK/iot-kitchen-cv
+  description: A Computer Vision based system that would enable households to better manage their groceries with a focus on minimising recurrent user interaction.
+   <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Junction X Asia 2020 🏆</a>
   used:
-    - thing: Raspberry PI
+    - thing: Flask
     - thing: Python
-    - thing: Computer Vision
-    - thing: Parallel Dots API
+    - thing: OpenCV
+    - thing: Flutter
+    - thing: Azure
+    - thing: MongoDB
 
 - name: Smart Glasses for the visually impaired.
   url: https://devpost.com/software/seense
