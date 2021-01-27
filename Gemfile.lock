@@ -49,8 +49,10 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubi (1.9.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
+    ffi (1.12.1)
     ffi (1.12.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -93,7 +95,9 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_json (1.14.1)
-    nokogiri (1.10.7-x64-mingw32)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.8-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     nuggets (1.6.0)
     pathutil (0.16.2)
@@ -121,6 +125,8 @@ GEM
     rouge (3.15.0)
     safe_yaml (1.0.5)
     sass (3.4.25)
+    sassc (2.2.1)
+      ffi (~> 1.9)
     sassc (2.2.1-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -147,6 +153,7 @@ GEM
     zeitwerk (2.2.2)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
