@@ -1,3 +1,13 @@
+- name: Nirvana - Reimagining Flipped Classroom Engagement for teachers
+  url: https://devpost.com/software/nirvana-reimagining-classroom-engagement-for-teachers
+  code: https://github.com/ExtremelySunnyYK/Lifehack-2021
+  description: An app tracks your attention on the screen with Computer Vision
+  used:
+    - thing: Computer Vision
+    - thing: Keras
+    - thing: Tensorflow
+
+
 - name: iOS Habit Correction App
   url: https://devpost.com/software/shake-it-off
   code: https://github.com/helloImHai/shake-it-off
