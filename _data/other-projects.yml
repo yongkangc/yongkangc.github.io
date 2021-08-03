@@ -1,7 +1,7 @@
 - name: Nirvana - Reimagining Flipped Classroom Engagement for teachers
   url: https://devpost.com/software/nirvana-reimagining-classroom-engagement-for-teachers
   code: https://github.com/ExtremelySunnyYK/Lifehack-2021
-  description: An app tracks your attention on the screen with Computer Vision
+  description: An app tracks your attention on the screen with Computer Vision that I made at Lifehack 2021
   used:
     - thing: Computer Vision
     - thing: Keras
@@ -83,6 +83,12 @@
     - thing: CSS
     - thing: Heroku
     - thing: SocketIO
+
+- name: React Todo List website
+  code: https://github.com/ExtremelySunnyYK/React-Basics
+  description: A react app tracks your todo list.
+  used:
+    - thing: ReactJs
 
 # - name: Personal Website V2
 #   url: https://extremelysunny.github.io
