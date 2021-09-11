@@ -1,18 +1,20 @@
 - name: Nirvana - Reimagining Flipped Classroom Engagement for teachers
   url: https://devpost.com/software/nirvana-reimagining-classroom-engagement-for-teachers
   code: https://github.com/ExtremelySunnyYK/Lifehack-2021
-  description: An app tracks your attention on the screen with Computer Vision that I made at Lifehack 2021
+  description:
+    An app tracks your attention on the screen with Computer Vision that I made at Lifehack 2021
+    <a class="small">🏆 Won $400 for Best Usage of Data at LifeHack 2021 🏆</a>
   used:
     - thing: Computer Vision
     - thing: Keras
     - thing: Tensorflow
 
-
 - name: iOS Habit Correction App
   url: https://devpost.com/software/shake-it-off
   code: https://github.com/helloImHai/shake-it-off
-  description: An app that notfies you when you are shaking your leg based on Accelerometer
-   <a class="small">🏆 Winner at Hack&Roll 2021 🏆</a>
+  description:
+    An app that notfies you when you are shaking your leg based on Accelerometer
+    <a class="small">🏆 Winner at Hack&Roll 2021 🏆</a>
   used:
     - thing: Flask
     - thing: Telegram Bot
@@ -21,8 +23,9 @@
 - name: Democratise Blindess Dectection
   url: https://www.youtube.com/watch?v=HD-t8QStoXs&feature=youtu.be&ab_channel=Ml
   code: https://github.com/ExtremelySunnyYK/Vison-Impairment-Lifehack-2020
-  description: An app that allows people to upload an image of their eye and receive a diagnosis
-   <a class="small">🏆 Winner at Lifehack 2020 🏆</a>
+  description:
+    An app that allows people to upload an image of their eye and receive a diagnosis
+    <a class="small">🏆 Winner at Lifehack 2020 🏆</a>
   used:
     - thing: Flask
     - thing: Python
@@ -33,8 +36,9 @@
 - name: Peanuts - A Smart Grocery Management System
   url: https://extremelysunnyyk.github.io/Peanuts_Portfolio.pdf
   code: https://github.com/ExtremelySunnyYK/iot-kitchen-cv
-  description: A Computer Vision based system that would enable households to better manage their groceries with a focus on minimising recurrent user interaction.
-   <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Junction X Asia 2020 🏆</a>
+  description:
+    A Computer Vision based system that would enable households to better manage their groceries with a focus on minimising recurrent user interaction.
+    <a class="small" href="https://devpost.com/software/seense">🏆 Winner at Junction X Asia 2020 🏆</a>
   used:
     - thing: Flask
     - thing: Python
@@ -55,8 +59,7 @@
 
 - name: Construction Augmented Reality App
   url: https://github.com/ExtremelySunnyYK/ARCoreMeasure
-  description: 
-    A Freelance project for construction company. To use Augmented Reality to calculate distance and cost.
+  description: A Freelance project for construction company. To use Augmented Reality to calculate distance and cost.
   used:
     - thing: Java
     - thing: Android
@@ -71,7 +74,6 @@
     - thing: Telegram API
     - thing: Heroku
 
-    
 - name: Chatroom with Socket IO
   url: https://frozen-atoll-84090.herokuapp.com/login
   code: https://github.com/ExtremelySunnyYK/Harvard-WebDevelopment/tree/master/project2-WebChat
@@ -89,7 +91,6 @@
   description: A react app tracks your todo list.
   used:
     - thing: ReactJs
-
 # - name: Personal Website V2
 #   url: https://extremelysunny.github.io
 #   code: https://github.com/ExtremelySunnyYK/ExtremelySunnyYK.github.io
