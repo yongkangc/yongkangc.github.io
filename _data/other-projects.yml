@@ -1,3 +1,13 @@
+- name: Delivery Gamification - NinjaVan Hackathon
+  url: https://www.linkedin.com/posts/ninja-van_hackathon-hackathon-logistics-activity-6905354783956312064-NwQL/?utm_source=linkedin_share&utm_medium=member_desktop_web
+  code: https://github.com/kaine119/code-dojo-2022
+  description:
+    An app gamifies deliveries for Ninjavan Delivery Drivers
+    <a class="small">🏆 Won $2000 for First Runner Up of Ninjavan Code Dojo 2022🏆</a>
+  used:
+    - thing: Kotlin
+    - thing: Android
+
 - name: Nirvana - Reimagining Flipped Classroom Engagement for teachers
   url: https://devpost.com/software/nirvana-reimagining-classroom-engagement-for-teachers
   code: https://github.com/ExtremelySunnyYK/Lifehack-2021
