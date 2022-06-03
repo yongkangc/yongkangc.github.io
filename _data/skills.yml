@@ -5,16 +5,17 @@ languages:
   - item: JavaScript (ES6)
   - item: SQL
   - item: Java
+  - item : Solidity
+  - item: Rust
 
 frameworks:
   - item: Flask
   - item: React JS
-  - item: Django
   - item: Android
-  - item: Flask
+  - item: Hardhat
 
 tools:
-  - item: Bash
+  - item: Linux
   - item: Git & Github
   - item: Firebase
 
