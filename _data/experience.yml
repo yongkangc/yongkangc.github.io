@@ -1,44 +1,29 @@
-- company: Upstatement
-  url: https://www.upstatement.com/
-  time: May 2018 - Present
-  position: Engineer
+- company: Velodrome
+  url: https://app.velodrome.finance/
+  time: Jan 2022 - Present
+  position: Smart Contract Developer
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2018
-  position: Studio Developer
+- company: Matchin
+  url: https://matchin.asia/
+  time: May 2020 - Jan 2022
+  position: Tech Co-Founder
 
-- company: Apple Music
+- company: StraitsX (YC 15)
+  url: https://www.straitsx.com/sg
+  time: May 2022 - Oct 2022
+  position: Backend & Smart Contract Intern
+
+- company: Treehouse (Defi)
+  url: https://www.treehouse.finance/
+  time: Aug 2021 - May 2022
+  position: Software Engineer (Blockchain Data)
+
+- company: Rakuten Viki
   url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
+  time: Apr - Sep 2021
+  position: Software Engineer Intern
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2017
-  position: Studio Developer
-
-- company: Starry
-  url: https://starry.com/
-  time: July - Dec 2016
-  position: Software Engineer Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Jan - May 2016
-  position: HCI Teaching Assistant
-
-- company: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  time: Jan 2016 - May 2017
-  position: President & Web Chair
-
-- company: MullenLowe U.S.
-  url: https://us.mullenlowe.com/
-  time: July - Dec 2015
-  position: Creative Technologist Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Mar - May 2015
-  position: HCI Research Assistant
+- company: DSO National Laboratory
+  url: https://www.dso.org.sg/
+  time: Jan - May 2020
+  position: AI Research Engineer Intern
