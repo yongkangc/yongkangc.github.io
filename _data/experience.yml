@@ -1,17 +1,27 @@
+- company: Spartan Labs
+  url: https://nethermind.io/
+  time: Aug 2022 - Oct 22
+  position: Blockchain Engineer
+
+- company: Nethermind
+  url: https://nethermind.io/
+  time: Aug 2022 - Oct 22
+  position: Blockchain Researcher (Contract)
+
 - company: Velodrome
   url: https://app.velodrome.finance/
-  time: Jan 2022 - Present
+  time: Jan 2022 - Aug 22
   position: Smart Contract Developer
-
-- company: Matchin
-  url: https://matchin.asia/
-  time: May 2020 - Jan 2022
-  position: Tech Co-Founder
 
 - company: StraitsX (YC 15)
   url: https://www.straitsx.com/sg
   time: May 2022 - Oct 2022
   position: Backend & Smart Contract Intern
+
+- company: Matchin
+  url: https://matchin.asia/
+  time: May 2020 - Jan 2022
+  position: Tech Co-Founder
 
 - company: Treehouse (Defi)
   url: https://www.treehouse.finance/
